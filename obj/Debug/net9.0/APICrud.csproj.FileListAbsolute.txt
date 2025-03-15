@@ -31,3 +31,4 @@ C:\Users\arthu\OneDrive\Documentos\C#DOTNET\APICrud\obj\Debug\net9.0\refint\APIC
 C:\Users\arthu\OneDrive\Documentos\C#DOTNET\APICrud\obj\Debug\net9.0\APICrud.pdb
 C:\Users\arthu\OneDrive\Documentos\C#DOTNET\APICrud\obj\Debug\net9.0\APICrud.genruntimeconfig.cache
 C:\Users\arthu\OneDrive\Documentos\C#DOTNET\APICrud\obj\Debug\net9.0\ref\APICrud.dll
+C:\Users\arthu\OneDrive\Documentos\C#DOTNET\APICrud\obj\Debug\net9.0\APICrud.sourcelink.json

@@ -1,3 +1,5 @@
+using APICrud.Estudantes;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,7 +16,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("HelloWorld", () => "Hello World!");
+//app.MapGet("HelloWorld", () => "Hello World!");
+//EstudantesRotas.AddRotasEstudantes(app);
 
+//Configurando as rotas!
+app.AddRotasEstudantes();
 app.Run();
 
