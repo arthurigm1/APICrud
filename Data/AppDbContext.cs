@@ -5,11 +5,11 @@ namespace APICrud.Data;
 
 public class AppDbContext : DbContext
 {
-     private DbSet<Estudante> Estudantes{ get; set; }
+     public DbSet<Estudante> Estudantes{ get; set; }
 
      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
      {
-          optionsBuilder.UseSqlite("Data Source=app.db");
+          optionsBuilder.UseSqlite("Data Source=Banco.sqlite");
           base.OnConfiguring(optionsBuilder);
      }
 }
